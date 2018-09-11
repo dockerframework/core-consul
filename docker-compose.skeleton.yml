@@ -6,7 +6,7 @@ services:
 # CORE-CONSUL
 #================================================================================================
   consul:
-    image: dockerframework/core-consul
+    image: dockerframework/core-consul:alpine
     ports:
       - "8300:8300"       # server RPC
       - "8301:8301"       # serf LAN
